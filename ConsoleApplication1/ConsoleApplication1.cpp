@@ -6,6 +6,7 @@
 int main()
 {
     int apple = 5;
+    int pear = 12;
     printf("apple = %d\n", apple);
     apple = apple + 2;
     printf("apple = %d\n", apple);
@@ -15,6 +16,7 @@ int main()
     else {
         printf("Goodbye, Cruel World!");
     }
+    printf("pear = %d\n", pear);
     return 0;
 }
 
